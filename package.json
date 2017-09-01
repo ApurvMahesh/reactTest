@@ -1,0 +1,30 @@
+{
+	"name": "AwesomeProject",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"babel-preset-react-native": "2.1.0",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.47.2",
+		"react-native-android-tablayout": "^0.3.0",
+		"react-native-bottom-navigation": "^0.1.7",
+		"react-native-looped-carousel": "^0.1.7",
+		"react-native-material-bottom-navigation": "^0.5.1",
+		"react-native-vector-icons": "^4.3.0",
+		"react-navigation": "git+https://github.com/react-community/react-navigation.git",
+		"uuid": "^3.1.0",
+		"watchman": "^0.1.8"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
